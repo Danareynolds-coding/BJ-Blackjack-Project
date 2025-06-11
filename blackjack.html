@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/blackjack.css">
+    <title>Blackjack</title>
+</head>
+<body>
+   <a href="./index.html"><button class="home">HOME PAGE</button></a>
+   <header role="banner">
+        <a href="#rules"><button class="rulesbtn">Read Rules</button></a>
+    <div class="box-container">
+        <div class="row">
+            <h1>Blackjack</h1>
+        </div>
+    </div>
+    <div class="winbox">
+        <h3 id="win"></h3>
+    </div>
+    </header>
+<main role="main">
+    <Div class="container">
+        <div>
+            <h2  class="dealerTitle">Dealers Cards</h2>
+            <div id="dealerCards">
+                <img id="facedown" src="./images/cards/BACK.png" alt="cardback">
+            </div>
+            <h4 class=dealerTotal>Dealer Total:<span id="dealerSum"></span></h4>
+
+            <h2 class="playerTitle">Player Cards</h2>
+            <div id="playerCards"></div>
+            <h4 class="playerTotal">Player Total:<span id="playerSum"></span></h4>
+        </div>
+        <br>
+        <div class="box">
+            <button id="hit"><span class="front">HIT</span></button>
+        <!-- ^to add new cards -->
+            <button id="stay"><span class="front">STAY</span></button>
+        <!-- //^to end game and add score -->
+        </div>
+    </Div>
+        <!-- /for result^ -->
+    <Div id="rules" class="ruleContainer">
+        <p ">1. In Blackjack, the goal is to get as close to 21 as possible without going over, and having a higher total than the dealer. If you bust (exceed 21), you lose. The dealer also plays, and their hand is revealed after all players have made their decisions. </p>
+        <p>2. Card Values: 
+        Cards 2-9 have their face value. 
+        10, Jack, Queen, and King are worth 10. 
+        An Ace can be 1 or 11, whichever is most beneficial to the player. </p>
+        <p>3. Initial Deal:The dealer deals each player two cards face up, and deals themselves two cards, one face up and one face down. </p>
+        <p>4. Player's Turn: Players decide whether to "hit" (take another card) or "stand" (stop taking cards).If a player busts, they automatically lose. </p>
+        <p>5. Dealer's Turn:After all players have made their decisions, the dealer reveals their face-down card. 
+        The dealer follows specific rules for hitting or standing (usually outlined by the casino). 
+        <p>6. Payouts:Player Wins: If a player's hand is closer to 21 than the dealer's, they win. 
+        Dealer Busts: If the dealer busts, all players who haven't busted win. 
+        Push: If the player and dealer have the same total, it's a push (tie)</p> 
+    </Div>
+    </main>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/blackjack.js"></script>
+</body>
+</html>
