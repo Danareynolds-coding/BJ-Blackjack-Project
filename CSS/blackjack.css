@@ -32,6 +32,7 @@ header{
   text-shadow:2px 2px black;
 }   
 .container{
+    height: fit-content;
     justify-content: center;
     background-color: rgb(20, 56, 18);
     border: 3px solid #ffd700;
@@ -46,16 +47,15 @@ h1{
     color:red;
     font-weight: 900;
     font-size: 2rem;
-    text-shadow: 2px 2px 8px black;
-    text-align: center;
+    text-shadow: 2px 2px black;
+   
   }  
   
-.ruleContainer{
+.rulesContainer{
     text-align: center;
     background-image:radial-gradient(circle,rgba(238,174,202,1)0%,rgba(148,187,233,1)100%); 
-    
     color:rgb(22, 63, 92);
-    margin-bottom: 6px;
+    margin-top: 6px;
     padding:0% 5%;
 }
 
@@ -164,12 +164,12 @@ h1{
 
 /* ********************************* */
 @media(max-width:400px){
-    #dCrds img{
+    #dealerCards img{
     height:110px;
     width:60px;
     margin:1px;
     } 
-    #pCrds img{
+    #playerCards img{
     height:110px;
     width:60px;
     margin:1px;
@@ -178,5 +178,8 @@ h1{
     height:110px;
     width:60px;
     margin:1px;
+  }
+  .rulesContainer{
+    margin-top:20%;
   }
 }
