@@ -19,7 +19,7 @@ button{
         color: white
     }
 .bj{
-    font-size: larger;
+    font-size: large;
     background-image:url(../images/crdbackgrnd.png) ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ button{
     color:gold;
     border: 5px solid gold;
     border-radius: 50%;
-    padding:70px 1px;
+    padding:65px 1px;
     text-shadow:2px 2px black ;
 }
 .dragon{
@@ -39,7 +39,19 @@ button{
     color:gold;
     border: 5px solid gold;
     border-radius: 50%;
-    padding:70px 5px;
+    padding:60px 1px;
+    text-shadow:2px 2px black ;
+}
+.fishgame{
+    font-size: larger;
+    background-image:url(../Screenshot\ 2025-06-17\ 000727.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    color:gold;
+    border: 5px solid gold;
+    border-radius: 50%;
+    padding:60px 20px;
     text-shadow:2px 2px black ;
 }
 
@@ -54,5 +66,10 @@ button{
          border: 2px solid gold;
        font-size:x-small;
         padding:15px 0.2px; 
-    }  
+    } 
+    .fishgame{
+         border: 2px solid gold;
+        font-size:x-small;
+        padding:15px 0.2px;
+    } 
 }
